@@ -15,7 +15,7 @@ description: Privilege Escalation using AlwaysInstallElevated
 * _During this process, I discovered that the <mark style="color:green;">**`AlwaysInstallElevated`**</mark> setting was enabled. This Windows policy allows Windows Installer packages (.msi files) to be installed with administrative privileges._
 * Leveraging this, I created a reverse shell payload embedded in a `.msi` file, uploaded it to the target machine, and installed it. This successfully granted me a reverse shell with administrator privileges, allowing me to complete the privilege escalation and achieve full control of the system.
 
-## Execution
+## Let's Unpack
 
 ### Enumeration
 
