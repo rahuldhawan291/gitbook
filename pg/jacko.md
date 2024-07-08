@@ -1,3 +1,7 @@
+---
+description: Elevated privileges using a DLL hijacking attack
+---
+
 # Jacko
 
 ## Summary
