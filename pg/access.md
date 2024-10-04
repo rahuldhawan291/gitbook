@@ -4,7 +4,7 @@ description: >-
   privileges.
 ---
 
-# 🔥 Access
+# Access
 
 ## Summary
 

@@ -2,7 +2,7 @@
 description: Owed DC using Misconfigured Certificate Templates - ESC1
 ---
 
-# 🔥 Nara
+# Nara
 
 ## Summary
 

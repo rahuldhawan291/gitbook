@@ -1,15 +1,17 @@
 # Table of contents
 
+* [Index](README.md)
+
 ## 🔥 PG - Practice <a href="#pg" id="pg"></a>
 
-* [Shenzi](README.md)
+* [Shenzi](<README (1).md>)
 * [DVR4](pg/dvr4.md)
 * [Resourced](pg/resourced.md)
-* [🔥 Nara](pg/nara.md)
+* [Nara](pg/nara.md)
 * [Jacko](pg/jacko.md)
 * [Hutch](pg/hutch.md)
 * [Authby](pg/authby.md)
-* [🔥 Access](pg/access.md)
+* [Access](pg/access.md)
 * [Kevin](pg/kevin.md)
 * [Internal](pg/internal.md)
 * [Algernon](pg/algernon.md)
