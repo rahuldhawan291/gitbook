@@ -1,5 +1,6 @@
 ---
 description: Owning DC machine with misconfiguration in LAPS service
+icon: windows
 ---
 
 # Hutch
@@ -10,9 +11,7 @@ description: Owning DC machine with misconfiguration in LAPS service
 * Found LAPS misconfiguration issue using Bloodhound, where `fmcsorley` user has the ability to read the password set by LAPS on the DC machine.&#x20;
 * Used this weekness to read the administrator password in plain text, finally getting both the flags.&#x20;
 
-
-
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 
@@ -147,7 +146,7 @@ bloodhound-python -d hutch.offsec -u fmcsorley -p CrabSharkJellyfish192 -ns 192.
 
 * [https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/laps](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/laps)
 * [https://adsecurity.org/?p=3164](https://adsecurity.org/?p=3164)
-* [https://specterops.io/wp-content/uploads/sites/3/2022/06/an\_ace\_up\_the\_sleeve.pdf](https://specterops.io/wp-content/uploads/sites/3/2022/06/an\_ace\_up\_the\_sleeve.pdf)
+* [https://specterops.io/wp-content/uploads/sites/3/2022/06/an\_ace\_up\_the\_sleeve.pdf](https://specterops.io/wp-content/uploads/sites/3/2022/06/an_ace_up_the_sleeve.pdf)
 
 ### Privilege Escalation/Lateral Movement
 

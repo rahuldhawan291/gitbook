@@ -2,6 +2,7 @@
 description: >-
   Leveraged SeManageVolumePrivilege and DLL hijacking permission to escalate
   privileges.
+icon: windows
 ---
 
 # Access
@@ -19,7 +20,7 @@ description: >-
 
 
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

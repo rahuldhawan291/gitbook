@@ -1,5 +1,6 @@
 ---
 description: Elevated privileges using a DLL hijacking attack
+icon: windows
 ---
 
 # Jacko
@@ -11,7 +12,7 @@ description: Elevated privileges using a DLL hijacking attack
 * Using winPEAS, found DLL hijack vulnerability resulting in priv escalation in PaperStream service.
 * Leraved this vulnerability to gain elevated shell on the box.
 
-## Let's Unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

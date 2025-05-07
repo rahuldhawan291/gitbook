@@ -1,5 +1,6 @@
 ---
 description: Got elevated shell using publicly available exloit
+icon: windows
 ---
 
 # Internal
@@ -9,7 +10,7 @@ Summary
 * The machine was running an old version of Microsoft Windows SMB server
 * used a publicaly avaialbe exploit to get a SYSTEM shell on the box
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

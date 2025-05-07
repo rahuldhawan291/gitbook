@@ -1,5 +1,6 @@
 ---
 description: Owned DC using a Resource-Based Constrained Delegation technique
+icon: windows
 ---
 
 # Resourced
@@ -15,7 +16,7 @@ description: Owned DC using a Resource-Based Constrained Delegation technique
   * L. Livingstone had genericAll permission on the DC machine.
 * As suggested by BloodHound, we can own the DC by using a <mark style="background-color:red;">Resource-Based Constrained Delegation technique</mark>
 
-## Let's Unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

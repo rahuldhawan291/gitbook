@@ -2,6 +2,7 @@
 description: >-
   This machine focused on enumerating an unknown port and identifying the
   service running on it.
+icon: windows
 ---
 
 # Algernon
@@ -11,7 +12,7 @@ description: >-
 * This machine was running a vulnerable version of SmarterMail
 * A public exploit was available that gave nt authority\system shell
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

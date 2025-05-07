@@ -17,6 +17,26 @@
 * [Algernon](pg/algernon.md)
 * [HelpDesk](pg/helpdesk.md)
 
+***
+
+* [Squid](squid.md)
+* [Hepet](hepet.md)
+* [Craft2](craft2.md)
+* [ClamAV](clamav.md)
+* [Pelican](pelican.md)
+* [Payday](payday.md)
+* [Snookums](snookums.md)
+* [Bratarina](bratarina.md)
+* [Nibbles](nibbles.md)
+* [Hetemit](hetemit.md)
+* [Hawat](hawat.md)
+* [Astronaut](astronaut.md)
+* [Exfiltrated](exfiltrated.md)
+* [Fanatastic](fanatastic.md)
+* [Wombo](wombo.md)
+* [Levram](levram.md)
+* [LaVita](lavita.md)
+
 ## 💣 HackTheBox <a href="#htbbox" id="htbbox"></a>
 
 * [Legacy](htbbox/legacy.md)

@@ -1,5 +1,6 @@
 ---
 description: Use public Buffer Overflow exploit to gain elevated privilege
+icon: windows
 ---
 
 # Kevin
@@ -10,7 +11,7 @@ description: Use public Buffer Overflow exploit to gain elevated privilege
 * A vulnerable version of HP Power Manager was discovered upon logging in, which can be exploited using a publicly available exploit.
 * On executing the exploit, we will get the `NT SYSTEM` shell.
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

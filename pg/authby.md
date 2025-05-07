@@ -1,5 +1,6 @@
 ---
 description: Privilege escalation using Kernel level exploit
+icon: windows
 ---
 
 # Authby
@@ -12,7 +13,7 @@ description: Privilege escalation using Kernel level exploit
 * With write access to FTP, a reverse shell was uploaded to gain an initial foothold on the machine.
 * Finally, the [<mark style="color:red;">MS11-046</mark>](https://www.exploit-db.com/exploits/40564) vulnerability was leveraged to elevate access to the Administrator user.
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

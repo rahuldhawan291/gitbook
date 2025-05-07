@@ -1,5 +1,6 @@
 ---
 description: Owed DC using Misconfigured Certificate Templates - ESC1
+icon: windows
 ---
 
 # Nara
@@ -16,7 +17,7 @@ description: Owed DC using Misconfigured Certificate Templates - ESC1
 * found a secured encrypted secret int he box which was later decrypted get plan text password.&#x20;
 * it turns out DC had a CA, so we can attempt to perform domain escalation using <mark style="color:red;">Misconfigured Certificate Templates - ESC1</mark>&#x20;
 
-## Let's Unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 
@@ -45,7 +46,7 @@ Using SMBClient (unauth) to enumeration /nara directory
 
 `Important.txt` indicates that every employee should regularly check the Documents folder regularly (for new compliance documents). Since we have write access, we can plan an attack here.
 
-* Create a malicious INK file using the [<mark style="color:red;">ntml\_theft</mark>](https://github.com/Greenwolf/ntlm\_theft) tool.
+* Create a malicious INK file using the [<mark style="color:red;">ntml\_theft</mark>](https://github.com/Greenwolf/ntlm_theft) tool.
 * Spin up responder to get a callback from victim having their NTML hash.
 * Crack the hash to get the password in plaintext.
 

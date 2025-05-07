@@ -1,5 +1,6 @@
 ---
 description: Privilege Escalation using RunAs
+icon: windows
 ---
 
 # DVR4
@@ -12,7 +13,7 @@ description: Privilege Escalation using RunAs
 * Within the system, an encrypted password was discovered in the `DVRParams.ini` file. [Weak encryption methods](https://www.exploit-db.com/exploits/50130) allowed the decryption of the password, granting plain-text access to the admin user account.
 * Despite SSH access being disabled for the admin user, elevated privileges were achieved using the `runas` command.
 
-## Let's Unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

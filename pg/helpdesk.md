@@ -1,3 +1,8 @@
+---
+description: Root Access via CVE-2014-5301 and Default Admin Credentials
+icon: windows
+---
+
 # HelpDesk
 
 ## Summary
@@ -7,7 +12,7 @@
 
 
 
-## Let's unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 

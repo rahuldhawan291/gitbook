@@ -1,5 +1,6 @@
 ---
 description: Privilege Escalation using AlwaysInstallElevated
+icon: windows
 ---
 
 # Shenzi
@@ -15,7 +16,7 @@ description: Privilege Escalation using AlwaysInstallElevated
 * _During this process, I discovered that the <mark style="color:green;">**`AlwaysInstallElevated`**</mark> setting was enabled. This Windows policy allows Windows Installer packages (.msi files) to be installed with administrative privileges._
 * Leveraging this, I created a reverse shell payload embedded in a `.msi` file, uploaded it to the target machine, and installed it. This successfully granted me a reverse shell with administrator privileges, allowing me to complete the privilege escalation and achieve full control of the system.
 
-## Let's Unpack
+## 🧵Let's Unpack
 
 ### Enumeration
 
@@ -293,7 +294,7 @@ msiexec /quiet /qn /i ignite.msi
 # catching the shell using Netcat
 nc -nlvp 9999
 
-# Boom! got the <a data-footnote-ref href="#user-content-fn-2">NT AUTHORITY\SYSTEM</a> shell
+# Boom! got the <a data-footnote-ref href="#user-content-fn-1">NT AUTHORITY\SYSTEM</a> shell
 </code></pre>
 
 
@@ -303,5 +304,3 @@ nc -nlvp 9999
 
 
 [^1]: 
-
-[^2]: 
