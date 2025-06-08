@@ -41,9 +41,9 @@
 
 * [Devel](htbbox/devel.md)
 * [Legacy](htbbox/legacy.md)
-* [Intelligence](htbbox/intelligence/README.md)
+* [Intelligence](htbbox/intelligence.md)
   * [Learning](htbbox/intelligence/learning.md)
-* [Blackfield](htbbox/blackfield/README.md)
+* [Blackfield](htbbox/blackfield.md)
   * [PrivEsc - SeBackupPrivilege](htbbox/blackfield/privesc-sebackupprivilege.md)
 * [Sauna](htbbox/sauna.md)
 * [Bastard](htbbox/bastard.md)
