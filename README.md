@@ -1,17 +1,14 @@
+---
+icon: list-tree
+---
+
 # Index
 
 ## PG - Practice
 
-| Machine | Platform | Learnings |
-| ------- | -------- | --------- |
-|         |          |           |
-|         |          |           |
-|         |          |           |
+<table><thead><tr><th width="165.40625">Machine</th><th>Learnings</th></tr></thead><tbody><tr><td><a href="README (1).md">Shenzi</a></td><td>Privilege Escalation using AlwaysInstallElevated</td></tr><tr><td><a href="pg/dvr4.md">DVR4</a></td><td>Privilege Escalation using RunAs</td></tr><tr><td><a href="pg/resourced.md">Resourced</a></td><td>Owned DC using a Resource-Based Constrained Delegation technique</td></tr><tr><td><a href="pg/nara.md">Nara</a></td><td>Owed DC using Misconfigured Certificate Templates - ESC1</td></tr><tr><td><a href="pg/jacko.md">Jacko</a></td><td>Elevated privileges using a DLL hijacking attack</td></tr><tr><td><a href="pg/hutch.md">Hutch</a></td><td>Owning a DC machine with a misconfiguration in the LAPS service</td></tr><tr><td><a href="pg/authby.md">Authby</a></td><td>Privilege escalation using Kernel level exploit</td></tr><tr><td><a href="pg/access.md">Access</a></td><td>Leveraged SeManageVolumePrivilege and DLL hijacking permission to escalate privileges.</td></tr><tr><td><a href="pg/kevin.md">Kevin</a></td><td>Use a public Buffer Overflow exploit to gain elevated privileges</td></tr><tr><td><a href="pg/internal.md">Internal</a></td><td>Got elevated shell using publicly available exloit</td></tr><tr><td><a href="pg/algernon.md">Algernon</a></td><td>This machine focused on enumerating an unknown port and identifying the service running on it.</td></tr><tr><td><a href="pg/helpdesk.md">Helpdesk</a></td><td>Root Access via CVE-2014-5301 and Default Admin Credentials</td></tr><tr><td><a href="squid.md">Squid</a></td><td>Privilege Escalation via Scheduled Task Privilege Recovery + SeImpersonatePrivilege Abuse (PrintSpoofer)</td></tr><tr><td><a href="hepet.md">Hepet</a></td><td>Auto-parsed spreadsheets on the mail server + LibreOffice macros injection</td></tr><tr><td><a href="craft2.md">Craft2</a></td><td>Think like a red teamer, not a CTF player. 🕵️‍♂️</td></tr><tr><td><a href="clamav.md">ClamAV</a></td><td>Misconfiguration in the ClamAV milter process leading to RCE</td></tr><tr><td><a href="pelican.md">Pelican</a></td><td>udo gcore to dump root process memory</td></tr><tr><td><a href="payday.md">Payday</a></td><td>Use sudo su with full sudo rights</td></tr><tr><td><a href="snookums.md">Snookums</a></td><td>Privilege Escalation via writable /etc/passwd</td></tr><tr><td><a href="bratarina.md">Bratarina</a></td><td>Remote Code Execution via OpenSMTPD 2.0.0 Command Injection</td></tr><tr><td><a href="nibbles.md">Nibbles</a></td><td>SUID misconfiguration in <code>find</code> binary led to privEsc</td></tr><tr><td><a href="hetemit.md">Hetemit</a></td><td>Privilege Escalation by injecting a reverse shell into a writable systemd service and rebooting via sudo</td></tr><tr><td><a href="hawat.md">Hawat</a></td><td>SQLi to webShell and use wget to escalate privs</td></tr><tr><td><a href="astronaut.md">Astronaut</a></td><td>Privilege escalation achieved via <strong>SUID misconfiguration in PHP binary</strong></td></tr><tr><td><a href="exfiltrated.md">Exfiltrated</a></td><td>Privilege Escalation via Image Upload — DJVU RCE (CVE-2021-22204)</td></tr><tr><td><a href="fanatastic.md">Fanatastic</a></td><td>Privilege Escalation via disk group → Access to /dev/sda using debugfs</td></tr><tr><td><a href="wombo.md">Wombo</a></td><td><strong>unauthenticated RCE as root</strong> via Redis</td></tr><tr><td><a href="levram.md">Levram</a></td><td>Privilege Escalation via Python Binary with cap_setuid</td></tr><tr><td><a href="lavita.md">LaVita</a></td><td>Leveraged <strong>CVE-2021-3129</strong> via log poisoning</td></tr></tbody></table>
 
 ## Hackthebox
 
-| Machine | Platform | Learnings |
-| ------- | -------- | --------- |
-|         |          |           |
-|         |          |           |
-|         |          |           |
+<table><thead><tr><th width="114.73828125">Machine</th><th>Learnings</th></tr></thead><tbody><tr><td><a href="htbbox/devel.md">Devel</a></td><td>Got root using MS10-015 kernel exploit after failing all Potato/UAC bypass attempts.</td></tr><tr><td>Legacy</td><td></td></tr><tr><td>Blue</td><td></td></tr><tr><td>Optimum</td><td></td></tr><tr><td>Bastard</td><td></td></tr><tr><td>Granny</td><td></td></tr><tr><td>Arctic</td><td></td></tr><tr><td>Forest</td><td></td></tr><tr><td>Servmon</td><td></td></tr><tr><td>Blackfield</td><td></td></tr><tr><td>Intelligence</td><td></td></tr><tr><td>Sauna</td><td></td></tr><tr><td>Site</td><td></td></tr><tr><td>Chatterbox</td><td></td></tr></tbody></table>
+

@@ -39,9 +39,9 @@
 
 ## 💣 HackTheBox <a href="#htbbox" id="htbbox"></a>
 
+* [Devel](htbbox/devel.md)
 * [Legacy](htbbox/legacy.md)
 * [Blue](htbbox/blue.md)
-* [Devel](htbbox/devel.md)
 * [Optimum](htbbox/optimum.md)
 * [Bastard](htbbox/bastard.md)
 * [Granny](htbbox/granny.md)
