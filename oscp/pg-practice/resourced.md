@@ -96,7 +96,7 @@ bloodhound-python -d resourced.local -u V.Ventz -p 'HotelCalifornia194!' -ns 192
 
 * The user `L.LIVINGSTONE@RESOURCED.LOCAL` has <mark style="color:red;">GenericAll</mark> privileges to the computer `RESOURCEDC.RESOURCED.LOCAL.`
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-07 at 1.59.22 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-07 at 1.59.22 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 The possible Attack Vector, as suggested by Bloodhound, was a **Constrained Delegation attack.**
 

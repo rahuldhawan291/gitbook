@@ -140,7 +140,7 @@ bloodhound-python -d hutch.offsec -u fmcsorley -p CrabSharkJellyfish192 -ns 192.
 
 * The user FMCSORLEY@HUTCH.OFFSEC has the ability to read the password set by Local Administrator Password Solution (LAPS) on the computer HUTCHDC.HUTCH.OFFSEC.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-08 at 5.34.28 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-08 at 5.34.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Read more about LAPS here:
 

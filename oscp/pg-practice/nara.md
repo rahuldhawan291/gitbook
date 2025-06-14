@@ -85,7 +85,7 @@ bloodhound-python -d nara-security.com -u Tracy.White -p zqwj041FGX -ns 192.168.
 
 * TRACY.WHITE@NARA-SECURITY.COM has <mark style="color:red;">GenericAll</mark> privileges to the group REMOTE ACCESS@NARA-SECURITY.COM
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-07 at 1.45.36 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-07 at 1.45.36 PM.png" alt=""><figcaption></figcaption></figure>
 
 To abuse this permission, we can add ourselves to the `Remote Access Group` and gain an initial foothold into the machine via winrm
 
@@ -155,7 +155,7 @@ It turns out there is a CA on a Domain Controller. We can use [<mark style="colo
 
 BloodHound UI shows that the Enrollment group as <mark style="color:red;">GenericAll</mark> on the <mark style="color:red;">NARAUSER</mark> template, which is also known as the <mark style="color:red;">ESC4</mark> scenario (full control over a template). Additionally, any user-supplied subject is allowed, so it is also <mark style="color:red;">directly vulnerable to ESC1</mark> from any user in the enrollment group.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-07 at 2.18.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-07 at 2.18.21 PM.png" alt=""><figcaption></figcaption></figure>
 
 Read more about this class of vulnerability here
 
