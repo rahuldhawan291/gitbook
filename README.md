@@ -26,7 +26,7 @@ When I finally cleared OSCP, one thought crystallized my entire approach: _Wash,
 
 This blog is my personal record of the OSCP journey, combining two pieces I relied on heavily:
 
-* **Machine Writeups:** Detailed breakdowns of [OSCP-style machines](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997) I solved on Proving Grounds Practice and Hack The Box. They focus on real-world misconfigurations, manual enumeration, minimal tooling, and privilege escalation paths. Check the Machine Writeup Index for a quick overview!
+* **Machine Writeups:** Detailed breakdowns of [OSCP-style machines](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997) I solved on [Proving Grounds Practice](https://www.offsec.com/labs/individual/#labs) and [HackTheBox](https://www.hackthebox.com/). They focus on real-world misconfigurations, manual enumeration, minimal tooling, and privilege escalation paths. Check the Machine Writeup Index for a quick overview!
 * **Preparation Notes:** My raw, unfiltered notes from OSCP prep, covering enumeration, exploitation, pivoting, Active Directory attacks, password cracking, and quick tips/tricks. They’re messy, but they got me through the late nights.
 
 I created this as a quick reference for myself, but I hope it helps you too—whether you’re preparing for OSCP, sharpening your pentesting skills, or diving into offensive security with a fresh perspective.
